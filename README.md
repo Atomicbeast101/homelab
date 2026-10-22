@@ -42,7 +42,25 @@ The following applications make up the core of my homelab, supporting everything
 
 ## Current Setup
 
-IMAGE_HERE
+[![Current](/images/current.png)](/images/current.png)
+
+The homelab has undergone significant modernization and infrastructure consolidation. All networking equipment has been replaced with Ubiquiti hardware to simplify network management, and custom-built 2U storage servers have been replaced with Synology systems. The number of Dell PCs has been reduced by consolidating applications into a single-node Kubernetes cluster and Proxmox-hosted LXC containers and virtual machines. Additionally, a custom-built desktop PC (shown on the right) equipped with an NVIDIA GeForce RTX 3090 was added to host Proxmox workloads and AI agents for various use cases.
+
+Hardware List (Top to Bottom, Left to Right):
+* Ubiquiti Dream Machine Pro
+* Ubiquiti 24-Port 1G Core Switch (US-24)
+* Dell Optiplex 7060m MicroDesktop PC running Home Automation system
+* GoveeLife Bluetooth Temperature/Humidity Sensor
+* 2x Dell Optiplex 7040m MicroDesktop PCs running DNS/DHCP/NTP services
+* Synology DS423 (Main Storage)
+* Synology DS423+ (Backup Storage)
+* CyberPower 1500VA/900W CST150UC2-E UPS
+* Custom-Built Desktop PC w/ Nvidia GTX 3090 GPU
+
+Not in Picture:
+* Ubiquiti USW-Lite-16-PoE House Switch
+* 2x Ubiquiti USW-Flex-Mini Room Switches
+* 2x Ubiquiti U7 Lite WAPs
 
 ## Previous Setups
 
